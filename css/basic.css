@@ -394,7 +394,7 @@
     color: #2e4b89;
     color:black;
     font-weight: bold;
-    transition: 0.5s;
+   
   }
   .section_03 .container .shullf .sector:hover a img {
     border: 2px solid #2e4b89;
@@ -407,6 +407,7 @@
     width: 50px;
     filter: grayscale(100%);
     padding: 5px;
+    transition: 0.3s;
   }
   /* End Section 03 */
   /* Start Section_last */
@@ -469,7 +470,9 @@
     color: white;
    font-size: 18px;
   }
- 
+  .section_last .content .adress .enployee_us {
+    margin-top: 50px;
+  }
   .section_last .content .adress a {
       text-decoration: none;
       color: black;
@@ -478,14 +481,15 @@
       background-color: #ddd;
       padding: 10px;
       border-radius:  5px;
+      transition: 0.5s;
+      
   }
   .section_last .content .adress a:hover {
       color: white;
       background-color: black;
       padding: 10px;
       border-radius:  5px;
-  
-    
+
   }
   .section_last .content .social-media-icon {
     /* background-color: aqua; */
